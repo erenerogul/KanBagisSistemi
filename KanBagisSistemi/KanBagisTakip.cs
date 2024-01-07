@@ -29,7 +29,7 @@ namespace KanBagisSistemi
 
 
 
-        NpgsqlConnection baglanti = new NpgsqlConnection("server=35.246.162.48; port=5432; Database=proje; user Id=postgres; password=ora123;");
+        NpgsqlConnection baglanti = new NpgsqlConnection("server=localhost; port=5432; Database=proje; user Id=postgres; password=12345;");
 
         private void KanBagisTakip_Load(object sender, EventArgs e)
         {
@@ -49,12 +49,7 @@ namespace KanBagisSistemi
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            string sorgu = ("select isteknotu,gonderilenad,gonderilensoyad,hastanead,hastaneadres,kangrupismi " +
-                "from kanistekleri " +
-                "inner join hastane " +
-                "on kanistekleri.hastaneid = hastane.hastaneid " +
-                "inner join kangruplari " +
-                "on kangruplari.kangrupid = kanistekleri.kangrupid;");
+            string sorgu = ("SELECT * FROM ozelistekView;");
             NpgsqlDataAdapter da = new NpgsqlDataAdapter(sorgu, baglanti);
             DataSet ds = new DataSet();
             da.Fill(ds);

@@ -28,81 +28,81 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnaEkran));
-            this.KanBagisBtn = new System.Windows.Forms.Button();
-            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.KanTakipBtn = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            KanBagisBtn = new Button();
+            ımageList1 = new ImageList(components);
+            KanTakipBtn = new Button();
+            label1 = new Label();
+            SuspendLayout();
             // 
             // KanBagisBtn
             // 
-            this.KanBagisBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.KanBagisBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.KanBagisBtn.ImageKey = "icons8-health-64 (2).png";
-            this.KanBagisBtn.ImageList = this.ımageList1;
-            this.KanBagisBtn.Location = new System.Drawing.Point(162, 325);
-            this.KanBagisBtn.Name = "KanBagisBtn";
-            this.KanBagisBtn.Size = new System.Drawing.Size(160, 113);
-            this.KanBagisBtn.TabIndex = 0;
-            this.KanBagisBtn.Text = "KAN BAĞIŞI";
-            this.KanBagisBtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.KanBagisBtn.UseVisualStyleBackColor = true;
-            this.KanBagisBtn.Click += new System.EventHandler(this.KanBagisBtn_Click);
+            KanBagisBtn.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            KanBagisBtn.ImageAlign = ContentAlignment.TopCenter;
+            KanBagisBtn.ImageKey = "icons8-health-64 (2).png";
+            KanBagisBtn.ImageList = ımageList1;
+            KanBagisBtn.Location = new Point(233, 188);
+            KanBagisBtn.Name = "KanBagisBtn";
+            KanBagisBtn.Size = new Size(160, 113);
+            KanBagisBtn.TabIndex = 0;
+            KanBagisBtn.Text = "KAN BAĞIŞI";
+            KanBagisBtn.TextAlign = ContentAlignment.BottomCenter;
+            KanBagisBtn.UseVisualStyleBackColor = true;
+            KanBagisBtn.Click += KanBagisBtn_Click;
             // 
             // ımageList1
             // 
-            this.ımageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
-            this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.ımageList1.Images.SetKeyName(0, "icons8-health-64 (1).png");
-            this.ımageList1.Images.SetKeyName(1, "icons8-health-64 (2).png");
+            ımageList1.ColorDepth = ColorDepth.Depth8Bit;
+            ımageList1.ImageStream = (ImageListStreamer)resources.GetObject("ımageList1.ImageStream");
+            ımageList1.TransparentColor = Color.Transparent;
+            ımageList1.Images.SetKeyName(0, "icons8-health-64 (1).png");
+            ımageList1.Images.SetKeyName(1, "icons8-health-64 (2).png");
             // 
             // KanTakipBtn
             // 
-            this.KanTakipBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.KanTakipBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.KanTakipBtn.ImageKey = "icons8-health-64 (1).png";
-            this.KanTakipBtn.ImageList = this.ımageList1;
-            this.KanTakipBtn.Location = new System.Drawing.Point(357, 325);
-            this.KanTakipBtn.Name = "KanTakipBtn";
-            this.KanTakipBtn.Size = new System.Drawing.Size(163, 113);
-            this.KanTakipBtn.TabIndex = 1;
-            this.KanTakipBtn.Text = "KAN BAĞIŞ TAKİP";
-            this.KanTakipBtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.KanTakipBtn.UseVisualStyleBackColor = true;
-            this.KanTakipBtn.Click += new System.EventHandler(this.KanTakipBtn_Click);
+            KanTakipBtn.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            KanTakipBtn.ImageAlign = ContentAlignment.TopCenter;
+            KanTakipBtn.ImageKey = "icons8-health-64 (1).png";
+            KanTakipBtn.ImageList = ımageList1;
+            KanTakipBtn.Location = new Point(420, 188);
+            KanTakipBtn.Name = "KanTakipBtn";
+            KanTakipBtn.Size = new Size(163, 113);
+            KanTakipBtn.TabIndex = 1;
+            KanTakipBtn.Text = "KAN BAĞIŞ TAKİP";
+            KanTakipBtn.TextAlign = ContentAlignment.BottomCenter;
+            KanTakipBtn.UseVisualStyleBackColor = true;
+            KanTakipBtn.Click += KanTakipBtn_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(28, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(284, 23);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Kan bağışı geleceğe bağıştır.";
+            label1.AutoSize = true;
+            label1.BackColor = Color.LightCoral;
+            label1.FlatStyle = FlatStyle.System;
+            label1.Font = new Font("Tahoma", 27.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(141, 93);
+            label1.Name = "label1";
+            label1.Size = new Size(551, 45);
+            label1.TabIndex = 2;
+            label1.Text = "Kan bağışı geleceğe bağıştır.";
             // 
             // AnaEkran
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(806, 456);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.KanTakipBtn);
-            this.Controls.Add(this.KanBagisBtn);
-            this.Name = "AnaEkran";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AnaEkran";
-            this.Load += new System.EventHandler(this.AnaEkran_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightCoral;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(806, 456);
+            Controls.Add(label1);
+            Controls.Add(KanTakipBtn);
+            Controls.Add(KanBagisBtn);
+            Name = "AnaEkran";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "AnaEkran";
+            Load += AnaEkran_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

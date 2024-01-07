@@ -28,80 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KanBagisi));
-            this.StandartBagisBtn = new System.Windows.Forms.Button();
-            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.IstekUzerineBagis = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            StandartBagisBtn = new Button();
+            ımageList1 = new ImageList(components);
+            IstekUzerineBagis = new Button();
+            button1 = new Button();
+            SuspendLayout();
             // 
             // StandartBagisBtn
             // 
-            this.StandartBagisBtn.Font = new System.Drawing.Font("Segoe UI Variable Text", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.StandartBagisBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.StandartBagisBtn.ImageKey = "icons8-blood-64 (1).png";
-            this.StandartBagisBtn.ImageList = this.ımageList1;
-            this.StandartBagisBtn.Location = new System.Drawing.Point(58, 132);
-            this.StandartBagisBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.StandartBagisBtn.Name = "StandartBagisBtn";
-            this.StandartBagisBtn.Size = new System.Drawing.Size(315, 124);
-            this.StandartBagisBtn.TabIndex = 0;
-            this.StandartBagisBtn.Text = "STANDART BAĞIŞ";
-            this.StandartBagisBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.StandartBagisBtn.UseVisualStyleBackColor = true;
-            this.StandartBagisBtn.Click += new System.EventHandler(this.StandartBagisBtn_Click);
+            StandartBagisBtn.Font = new Font("Segoe UI Variable Text", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            StandartBagisBtn.ImageAlign = ContentAlignment.MiddleRight;
+            StandartBagisBtn.ImageKey = "icons8-blood-64 (1).png";
+            StandartBagisBtn.ImageList = ımageList1;
+            StandartBagisBtn.Location = new Point(79, 195);
+            StandartBagisBtn.Name = "StandartBagisBtn";
+            StandartBagisBtn.Size = new Size(276, 93);
+            StandartBagisBtn.TabIndex = 0;
+            StandartBagisBtn.Text = "STANDART BAĞIŞ";
+            StandartBagisBtn.TextAlign = ContentAlignment.MiddleLeft;
+            StandartBagisBtn.UseVisualStyleBackColor = true;
+            StandartBagisBtn.Click += StandartBagisBtn_Click;
             // 
             // ımageList1
             // 
-            this.ımageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
-            this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.ımageList1.Images.SetKeyName(0, "icons8-blood-64 (1).png");
-            this.ımageList1.Images.SetKeyName(1, "icons8-blood-64.png");
+            ımageList1.ColorDepth = ColorDepth.Depth8Bit;
+            ımageList1.ImageStream = (ImageListStreamer)resources.GetObject("ımageList1.ImageStream");
+            ımageList1.TransparentColor = Color.Transparent;
+            ımageList1.Images.SetKeyName(0, "icons8-blood-64 (1).png");
+            ımageList1.Images.SetKeyName(1, "icons8-blood-64.png");
             // 
             // IstekUzerineBagis
             // 
-            this.IstekUzerineBagis.Font = new System.Drawing.Font("Segoe UI Variable Text", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.IstekUzerineBagis.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.IstekUzerineBagis.ImageKey = "icons8-blood-64.png";
-            this.IstekUzerineBagis.ImageList = this.ımageList1;
-            this.IstekUzerineBagis.Location = new System.Drawing.Point(58, 288);
-            this.IstekUzerineBagis.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.IstekUzerineBagis.Name = "IstekUzerineBagis";
-            this.IstekUzerineBagis.Size = new System.Drawing.Size(315, 131);
-            this.IstekUzerineBagis.TabIndex = 1;
-            this.IstekUzerineBagis.Text = "İSTEK ÜZERİNE BAĞIŞ";
-            this.IstekUzerineBagis.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.IstekUzerineBagis.UseVisualStyleBackColor = true;
-            this.IstekUzerineBagis.Click += new System.EventHandler(this.IstekUzerineBagis_Click);
+            IstekUzerineBagis.Font = new Font("Segoe UI Variable Text", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            IstekUzerineBagis.ImageAlign = ContentAlignment.MiddleRight;
+            IstekUzerineBagis.ImageKey = "icons8-blood-64.png";
+            IstekUzerineBagis.ImageList = ımageList1;
+            IstekUzerineBagis.Location = new Point(440, 190);
+            IstekUzerineBagis.Name = "IstekUzerineBagis";
+            IstekUzerineBagis.Size = new Size(276, 98);
+            IstekUzerineBagis.TabIndex = 1;
+            IstekUzerineBagis.Text = "İSTEK ÜZERİNE BAĞIŞ";
+            IstekUzerineBagis.TextAlign = ContentAlignment.MiddleLeft;
+            IstekUzerineBagis.UseVisualStyleBackColor = true;
+            IstekUzerineBagis.Click += IstekUzerineBagis_Click;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(24, 15);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "GERİ";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.Location = new Point(21, 11);
+            button1.Margin = new Padding(3, 2, 3, 2);
+            button1.Name = "button1";
+            button1.Size = new Size(82, 22);
+            button1.TabIndex = 2;
+            button1.Text = "GERİ";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // KanBagisi
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(941, 619);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.IstekUzerineBagis);
-            this.Controls.Add(this.StandartBagisBtn);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "KanBagisi";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "KanBagisi";
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightCoral;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(823, 464);
+            Controls.Add(button1);
+            Controls.Add(IstekUzerineBagis);
+            Controls.Add(StandartBagisBtn);
+            Name = "KanBagisi";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "KanBagisi";
+            ResumeLayout(false);
         }
 
         #endregion

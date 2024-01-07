@@ -294,7 +294,7 @@
             textBox1.Name = "textBox1";
             textBox1.PlaceholderText = "Semt";
             textBox1.Size = new Size(122, 23);
-            textBox1.TabIndex = 62;
+            textBox1.TabIndex = 6;
             // 
             // GroupBox_Covid
             // 
@@ -346,7 +346,7 @@
             S_Adres.Name = "S_Adres";
             S_Adres.PlaceholderText = "Adres";
             S_Adres.Size = new Size(122, 23);
-            S_Adres.TabIndex = 59;
+            S_Adres.TabIndex = 7;
             // 
             // S_TelNo
             // 
@@ -354,7 +354,7 @@
             S_TelNo.Name = "S_TelNo";
             S_TelNo.PlaceholderText = "Telefon Numarası";
             S_TelNo.Size = new Size(122, 23);
-            S_TelNo.TabIndex = 58;
+            S_TelNo.TabIndex = 8;
             // 
             // label4
             // 
@@ -370,7 +370,7 @@
             S_Email.Name = "S_Email";
             S_Email.PlaceholderText = "Email";
             S_Email.Size = new Size(122, 23);
-            S_Email.TabIndex = 56;
+            S_Email.TabIndex = 4;
             // 
             // S_Yas
             // 
@@ -378,7 +378,7 @@
             S_Yas.Name = "S_Yas";
             S_Yas.PlaceholderText = "Yaş";
             S_Yas.Size = new Size(122, 23);
-            S_Yas.TabIndex = 55;
+            S_Yas.TabIndex = 5;
             // 
             // S_Soyad
             // 
@@ -386,7 +386,7 @@
             S_Soyad.Name = "S_Soyad";
             S_Soyad.PlaceholderText = "Soyad";
             S_Soyad.Size = new Size(122, 23);
-            S_Soyad.TabIndex = 54;
+            S_Soyad.TabIndex = 3;
             // 
             // S_Ad
             // 
@@ -394,7 +394,7 @@
             S_Ad.Name = "S_Ad";
             S_Ad.PlaceholderText = "Ad";
             S_Ad.Size = new Size(122, 23);
-            S_Ad.TabIndex = 53;
+            S_Ad.TabIndex = 2;
             // 
             // S_KimlikNoTxt
             // 
@@ -402,7 +402,7 @@
             S_KimlikNoTxt.Name = "S_KimlikNoTxt";
             S_KimlikNoTxt.PlaceholderText = "Kimlik No";
             S_KimlikNoTxt.Size = new Size(122, 23);
-            S_KimlikNoTxt.TabIndex = 52;
+            S_KimlikNoTxt.TabIndex = 1;
             // 
             // label1
             // 
@@ -420,11 +420,11 @@
             dateTimePicker1.Location = new Point(56, 319);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 71;
+            dateTimePicker1.TabIndex = 9;
             // 
             // button1
             // 
-            button1.Location = new Point(56, 398);
+            button1.Location = new Point(56, 390);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(94, 30);
@@ -437,7 +437,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.LightSeaGreen;
+            BackColor = Color.LightCoral;
             ClientSize = new Size(645, 451);
             Controls.Add(button1);
             Controls.Add(dateTimePicker1);

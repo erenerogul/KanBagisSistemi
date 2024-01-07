@@ -75,7 +75,7 @@ namespace KanBagisSistemi
 
         }
 
-        NpgsqlConnection baglanti = new NpgsqlConnection("server=35.246.162.48; port=5432; Database=proje; user Id=postgres; password=ora123;");
+        NpgsqlConnection baglanti = new NpgsqlConnection("server=localhost; port=5432; Database=proje; user Id=postgres; password=12345;");
 
         private void IstkBgsKaydetbtn_Click(object sender, EventArgs e)
         {

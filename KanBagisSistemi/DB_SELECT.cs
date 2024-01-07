@@ -38,26 +38,7 @@ namespace KanBagisSistemi
                 }
             }
         }
-        /*
-        private DataTable insert_kanbagislayanlar() 
-        {
-            try 
-            { 
-                GetConnection().Open();
-                sql = @"insert * from textboxs_insert()";
-                cmd =new NpgsqlCommand(sql, GetConnection());
-                dt = new DataTable();
-                dt.Load(cmd.ExecuteReader());   
-                GetConnection().Close();
-            }
-            catch(Exception ex) 
-            {
-                GetConnection().Close();
-                MessageBox.Show(ex.Message);
-            }
-            return dt;
-        }
-        */
+
         private void Insert(string kimlikno,string kangrupad,string hastasemt,string hemsiread,string hastaad,string hastasoyad,string hastaadres,string hastatelno,string hastayas,string sonkanbagis,string hastaemail,bool covidtest)
         {
             try
@@ -88,12 +69,7 @@ namespace KanBagisSistemi
                 MessageBox.Show("Error: " + ex.Message);
             }
 
-
         }
-
-
-
-
 
     }
 }

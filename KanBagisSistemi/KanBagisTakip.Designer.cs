@@ -276,7 +276,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(910, 400);
+            button1.Location = new Point(933, 402);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(82, 38);
@@ -290,7 +290,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.LightSeaGreen;
+            BackColor = Color.LightCoral;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1036, 455);
             Controls.Add(button1);

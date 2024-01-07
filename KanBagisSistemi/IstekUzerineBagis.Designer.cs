@@ -604,7 +604,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.LightSeaGreen;
+            BackColor = Color.LightCoral;
             ClientSize = new Size(757, 491);
             Controls.Add(button1);
             Controls.Add(textAliciTc);
