@@ -127,14 +127,15 @@ namespace KanBagisSistemi
             }
 
             I_KimlikNoTxt.Text = I_Semt.Text = I_Ad.Text = I_Soyad.Text = I_Adres.Text = I_TelNo.Text = I_Yas.Text = I_Email.Text = I_IstekNotu.Text = Alıcı_Ad.Text = Alıcı_Soyad.Text = textAliciTc.Text = null;
-      
+
         }
 
         KanBagisi myNewForm = new KanBagisi();
         private void button1_Click(object sender, EventArgs e)
         {
+
+            myNewForm.Show();
             this.Hide();
-            myNewForm.ShowDialog();
         }
     }
 }

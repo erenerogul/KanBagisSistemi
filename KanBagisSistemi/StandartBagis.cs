@@ -159,7 +159,7 @@ namespace KanBagisSistemi
                 MessageBox.Show("Errorr: " + ex.Message);
             }
 
-            S_KimlikNoTxt.Text = textBox1.Text= S_Ad.Text= S_Soyad.Text= S_Adres.Text= S_TelNo.Text= S_Yas.Text= S_Email.Text= null;
+            S_KimlikNoTxt.Text = textBox1.Text = S_Ad.Text = S_Soyad.Text = S_Adres.Text = S_TelNo.Text = S_Yas.Text = S_Email.Text = null;
 
         }
 

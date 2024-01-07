@@ -10,7 +10,7 @@ namespace KanBagisSistemi
         private void Giris_btn_Click(object sender, EventArgs e)
         {
             AnaEkran anaEkran = new AnaEkran();
-            anaEkran.ShowDialog();
+            anaEkran.Show();
             this.Hide();
         }
     }

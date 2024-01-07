@@ -28,317 +28,299 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton14 = new System.Windows.Forms.RadioButton();
-            this.radioButton13 = new System.Windows.Forms.RadioButton();
-            this.radioButton12 = new System.Windows.Forms.RadioButton();
-            this.radioButton11 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnStandartUpdate = new System.Windows.Forms.Button();
-            this.btnStandartDelete = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.SuspendLayout();
+            dataGridView1 = new DataGridView();
+            radioButton2 = new RadioButton();
+            radioButton3 = new RadioButton();
+            radioButton14 = new RadioButton();
+            radioButton13 = new RadioButton();
+            radioButton12 = new RadioButton();
+            radioButton11 = new RadioButton();
+            radioButton1 = new RadioButton();
+            radioButton5 = new RadioButton();
+            radioButton7 = new RadioButton();
+            radioButton9 = new RadioButton();
+            radioButton10 = new RadioButton();
+            radioButton8 = new RadioButton();
+            radioButton6 = new RadioButton();
+            radioButton4 = new RadioButton();
+            label1 = new Label();
+            label2 = new Label();
+            btnStandartUpdate = new Button();
+            btnStandartDelete = new Button();
+            button1 = new Button();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            SuspendLayout();
             // 
             // dataGridView1
             // 
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(14, 16);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(1146, 341);
-            this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(12, 12);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.RowTemplate.Height = 25;
+            dataGridView1.Size = new Size(1003, 256);
+            dataGridView1.TabIndex = 0;
+            dataGridView1.CellClick += dataGridView1_CellClick;
             // 
             // radioButton2
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.radioButton2.Location = new System.Drawing.Point(679, 525);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(220, 31);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Özel istekleri listele";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            radioButton2.AutoSize = true;
+            radioButton2.Font = new Font("Segoe UI Variable Text", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            radioButton2.Location = new Point(594, 394);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(177, 25);
+            radioButton2.TabIndex = 2;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "Özel istekleri listele";
+            radioButton2.UseVisualStyleBackColor = true;
+            radioButton2.CheckedChanged += radioButton2_CheckedChanged;
             // 
             // radioButton3
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.radioButton3.Location = new System.Drawing.Point(350, 391);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(258, 31);
-            this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Standart istekleri listele";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+            radioButton3.AutoSize = true;
+            radioButton3.Font = new Font("Segoe UI Variable Text", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            radioButton3.Location = new Point(306, 293);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(207, 25);
+            radioButton3.TabIndex = 3;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "Standart istekleri listele";
+            radioButton3.UseVisualStyleBackColor = true;
+            radioButton3.CheckedChanged += radioButton3_CheckedChanged;
             // 
             // radioButton14
             // 
-            this.radioButton14.AutoSize = true;
-            this.radioButton14.Location = new System.Drawing.Point(834, 465);
-            this.radioButton14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.radioButton14.Name = "radioButton14";
-            this.radioButton14.Size = new System.Drawing.Size(136, 24);
-            this.radioButton14.TabIndex = 3;
-            this.radioButton14.TabStop = true;
-            this.radioButton14.Tag = "4";
-            this.radioButton14.Text = "Atıf Küçüközkan";
-            this.radioButton14.UseVisualStyleBackColor = true;
-            this.radioButton14.CheckedChanged += new System.EventHandler(this.radioButton14_CheckedChanged);
+            radioButton14.AutoSize = true;
+            radioButton14.Location = new Point(730, 349);
+            radioButton14.Name = "radioButton14";
+            radioButton14.Size = new Size(92, 19);
+            radioButton14.TabIndex = 3;
+            radioButton14.TabStop = true;
+            radioButton14.Tag = "4";
+            radioButton14.Text = "Dilay Görken";
+            radioButton14.UseVisualStyleBackColor = true;
+            radioButton14.CheckedChanged += radioButton14_CheckedChanged;
             // 
             // radioButton13
             // 
-            this.radioButton13.AutoSize = true;
-            this.radioButton13.Location = new System.Drawing.Point(834, 436);
-            this.radioButton13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.radioButton13.Name = "radioButton13";
-            this.radioButton13.Size = new System.Drawing.Size(122, 24);
-            this.radioButton13.TabIndex = 2;
-            this.radioButton13.TabStop = true;
-            this.radioButton13.Text = "Kutay Yıldırım";
-            this.radioButton13.UseVisualStyleBackColor = true;
-            this.radioButton13.CheckedChanged += new System.EventHandler(this.radioButton13_CheckedChanged);
+            radioButton13.AutoSize = true;
+            radioButton13.Location = new Point(730, 327);
+            radioButton13.Name = "radioButton13";
+            radioButton13.Size = new Size(85, 19);
+            radioButton13.TabIndex = 2;
+            radioButton13.TabStop = true;
+            radioButton13.Text = "Eren Eroğul";
+            radioButton13.UseVisualStyleBackColor = true;
+            radioButton13.CheckedChanged += radioButton13_CheckedChanged;
             // 
             // radioButton12
             // 
-            this.radioButton12.AutoSize = true;
-            this.radioButton12.Location = new System.Drawing.Point(675, 465);
-            this.radioButton12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(95, 24);
-            this.radioButton12.TabIndex = 1;
-            this.radioButton12.TabStop = true;
-            this.radioButton12.Text = "Yaren Sarı";
-            this.radioButton12.UseVisualStyleBackColor = true;
-            this.radioButton12.CheckedChanged += new System.EventHandler(this.radioButton12_CheckedChanged);
+            radioButton12.AutoSize = true;
+            radioButton12.Location = new Point(591, 349);
+            radioButton12.Name = "radioButton12";
+            radioButton12.Size = new Size(92, 19);
+            radioButton12.TabIndex = 1;
+            radioButton12.TabStop = true;
+            radioButton12.Text = "Baran Üçdağ";
+            radioButton12.UseVisualStyleBackColor = true;
+            radioButton12.CheckedChanged += radioButton12_CheckedChanged;
             // 
             // radioButton11
             // 
-            this.radioButton11.AutoSize = true;
-            this.radioButton11.Location = new System.Drawing.Point(675, 436);
-            this.radioButton11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(125, 24);
-            this.radioButton11.TabIndex = 0;
-            this.radioButton11.TabStop = true;
-            this.radioButton11.Text = "Tülay Tekinsoy";
-            this.radioButton11.UseVisualStyleBackColor = true;
-            this.radioButton11.CheckedChanged += new System.EventHandler(this.radioButton11_CheckedChanged);
+            radioButton11.AutoSize = true;
+            radioButton11.Location = new Point(591, 327);
+            radioButton11.Name = "radioButton11";
+            radioButton11.Size = new Size(104, 19);
+            radioButton11.TabIndex = 0;
+            radioButton11.TabStop = true;
+            radioButton11.Text = "Yiğit Çetinkaya";
+            radioButton11.UseVisualStyleBackColor = true;
+            radioButton11.CheckedChanged += radioButton11_CheckedChanged;
             // 
             // radioButton1
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(51, 436);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(71, 24);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "A Rh+";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(45, 327);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(58, 19);
+            radioButton1.TabIndex = 0;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "A Rh+";
+            radioButton1.UseVisualStyleBackColor = true;
+            radioButton1.CheckedChanged += radioButton1_CheckedChanged;
             // 
             // radioButton5
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(50, 469);
-            this.radioButton5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(70, 24);
-            this.radioButton5.TabIndex = 1;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "B Rh+";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
+            radioButton5.AutoSize = true;
+            radioButton5.Location = new Point(44, 352);
+            radioButton5.Name = "radioButton5";
+            radioButton5.Size = new Size(57, 19);
+            radioButton5.TabIndex = 1;
+            radioButton5.TabStop = true;
+            radioButton5.Text = "B Rh+";
+            radioButton5.UseVisualStyleBackColor = true;
+            radioButton5.CheckedChanged += radioButton5_CheckedChanged;
             // 
             // radioButton7
             // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(51, 503);
-            this.radioButton7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(80, 24);
-            this.radioButton7.TabIndex = 3;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "AB Rh+";
-            this.radioButton7.UseVisualStyleBackColor = true;
-            this.radioButton7.CheckedChanged += new System.EventHandler(this.radioButton7_CheckedChanged);
+            radioButton7.AutoSize = true;
+            radioButton7.Location = new Point(45, 377);
+            radioButton7.Name = "radioButton7";
+            radioButton7.Size = new Size(65, 19);
+            radioButton7.TabIndex = 3;
+            radioButton7.TabStop = true;
+            radioButton7.Text = "AB Rh+";
+            radioButton7.UseVisualStyleBackColor = true;
+            radioButton7.CheckedChanged += radioButton7_CheckedChanged;
             // 
             // radioButton9
             // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(51, 536);
-            this.radioButton9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(69, 24);
-            this.radioButton9.TabIndex = 6;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "0 Rh+";
-            this.radioButton9.UseVisualStyleBackColor = true;
-            this.radioButton9.CheckedChanged += new System.EventHandler(this.radioButton9_CheckedChanged);
+            radioButton9.AutoSize = true;
+            radioButton9.Location = new Point(45, 402);
+            radioButton9.Name = "radioButton9";
+            radioButton9.Size = new Size(56, 19);
+            radioButton9.TabIndex = 6;
+            radioButton9.TabStop = true;
+            radioButton9.Text = "0 Rh+";
+            radioButton9.UseVisualStyleBackColor = true;
+            radioButton9.CheckedChanged += radioButton9_CheckedChanged;
             // 
             // radioButton10
             // 
-            this.radioButton10.AutoSize = true;
-            this.radioButton10.Location = new System.Drawing.Point(160, 436);
-            this.radioButton10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(67, 24);
-            this.radioButton10.TabIndex = 7;
-            this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "A Rh-";
-            this.radioButton10.UseVisualStyleBackColor = true;
-            this.radioButton10.CheckedChanged += new System.EventHandler(this.radioButton10_CheckedChanged);
+            radioButton10.AutoSize = true;
+            radioButton10.Location = new Point(140, 327);
+            radioButton10.Name = "radioButton10";
+            radioButton10.Size = new Size(55, 19);
+            radioButton10.TabIndex = 7;
+            radioButton10.TabStop = true;
+            radioButton10.Text = "A Rh-";
+            radioButton10.UseVisualStyleBackColor = true;
+            radioButton10.CheckedChanged += radioButton10_CheckedChanged;
             // 
             // radioButton8
             // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(160, 469);
-            this.radioButton8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(66, 24);
-            this.radioButton8.TabIndex = 8;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "B Rh-";
-            this.radioButton8.UseVisualStyleBackColor = true;
-            this.radioButton8.CheckedChanged += new System.EventHandler(this.radioButton8_CheckedChanged);
+            radioButton8.AutoSize = true;
+            radioButton8.Location = new Point(140, 352);
+            radioButton8.Name = "radioButton8";
+            radioButton8.Size = new Size(54, 19);
+            radioButton8.TabIndex = 8;
+            radioButton8.TabStop = true;
+            radioButton8.Text = "B Rh-";
+            radioButton8.UseVisualStyleBackColor = true;
+            radioButton8.CheckedChanged += radioButton8_CheckedChanged;
             // 
             // radioButton6
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(160, 503);
-            this.radioButton6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(76, 24);
-            this.radioButton6.TabIndex = 9;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "AB Rh-";
-            this.radioButton6.UseVisualStyleBackColor = true;
-            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
+            radioButton6.AutoSize = true;
+            radioButton6.Location = new Point(140, 377);
+            radioButton6.Name = "radioButton6";
+            radioButton6.Size = new Size(62, 19);
+            radioButton6.TabIndex = 9;
+            radioButton6.TabStop = true;
+            radioButton6.Text = "AB Rh-";
+            radioButton6.UseVisualStyleBackColor = true;
+            radioButton6.CheckedChanged += radioButton6_CheckedChanged;
             // 
             // radioButton4
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(161, 536);
-            this.radioButton4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(65, 24);
-            this.radioButton4.TabIndex = 10;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "0 Rh-";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
+            radioButton4.AutoSize = true;
+            radioButton4.Location = new Point(141, 402);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(53, 19);
+            radioButton4.TabIndex = 10;
+            radioButton4.TabStop = true;
+            radioButton4.Text = "0 Rh-";
+            radioButton4.UseVisualStyleBackColor = true;
+            radioButton4.CheckedChanged += radioButton4_CheckedChanged;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(40, 391);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(245, 27);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "Kan grubuna göre listele";
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Variable Text", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(35, 293);
+            label1.Name = "label1";
+            label1.Size = new Size(197, 21);
+            label1.TabIndex = 11;
+            label1.Text = "Kan grubuna göre listele";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(675, 396);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(224, 27);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "Hemşireye göre listele";
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI Variable Text", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(591, 297);
+            label2.Name = "label2";
+            label2.Size = new Size(180, 21);
+            label2.TabIndex = 12;
+            label2.Text = "Hemşireye göre listele";
             // 
             // btnStandartUpdate
             // 
-            this.btnStandartUpdate.Location = new System.Drawing.Point(326, 471);
-            this.btnStandartUpdate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnStandartUpdate.Name = "btnStandartUpdate";
-            this.btnStandartUpdate.Size = new System.Drawing.Size(134, 88);
-            this.btnStandartUpdate.TabIndex = 16;
-            this.btnStandartUpdate.Text = "UPDATE";
-            this.btnStandartUpdate.UseVisualStyleBackColor = true;
-            this.btnStandartUpdate.Click += new System.EventHandler(this.btnStandartUpdate_Click);
+            btnStandartUpdate.Location = new Point(285, 353);
+            btnStandartUpdate.Name = "btnStandartUpdate";
+            btnStandartUpdate.Size = new Size(117, 66);
+            btnStandartUpdate.TabIndex = 16;
+            btnStandartUpdate.Text = "UPDATE";
+            btnStandartUpdate.UseVisualStyleBackColor = true;
+            btnStandartUpdate.Click += btnStandartUpdate_Click;
             // 
             // btnStandartDelete
             // 
-            this.btnStandartDelete.Location = new System.Drawing.Point(481, 473);
-            this.btnStandartDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnStandartDelete.Name = "btnStandartDelete";
-            this.btnStandartDelete.Size = new System.Drawing.Size(133, 88);
-            this.btnStandartDelete.TabIndex = 15;
-            this.btnStandartDelete.Text = "DELETE";
-            this.btnStandartDelete.UseVisualStyleBackColor = true;
-            this.btnStandartDelete.Click += new System.EventHandler(this.btnStandartDelete_Click);
+            btnStandartDelete.Location = new Point(421, 355);
+            btnStandartDelete.Name = "btnStandartDelete";
+            btnStandartDelete.Size = new Size(116, 66);
+            btnStandartDelete.TabIndex = 15;
+            btnStandartDelete.Text = "DELETE";
+            btnStandartDelete.UseVisualStyleBackColor = true;
+            btnStandartDelete.Click += btnStandartDelete_Click;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1040, 533);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 50);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "GERİ";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.Location = new Point(910, 400);
+            button1.Margin = new Padding(3, 2, 3, 2);
+            button1.Name = "button1";
+            button1.Size = new Size(82, 38);
+            button1.TabIndex = 17;
+            button1.Text = "GERİ";
+            button1.TextImageRelation = TextImageRelation.TextBeforeImage;
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // KanBagisTakip
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1184, 607);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnStandartUpdate);
-            this.Controls.Add(this.btnStandartDelete);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.radioButton14);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.radioButton13);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton12);
-            this.Controls.Add(this.radioButton11);
-            this.Controls.Add(this.radioButton6);
-            this.Controls.Add(this.radioButton8);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton10);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton9);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.radioButton7);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.radioButton5);
-            this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "KanBagisTakip";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "KanBagisTakip";
-            this.Load += new System.EventHandler(this.KanBagisTakip_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightSeaGreen;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(1036, 455);
+            Controls.Add(button1);
+            Controls.Add(btnStandartUpdate);
+            Controls.Add(btnStandartDelete);
+            Controls.Add(label2);
+            Controls.Add(radioButton14);
+            Controls.Add(label1);
+            Controls.Add(radioButton13);
+            Controls.Add(radioButton4);
+            Controls.Add(radioButton12);
+            Controls.Add(radioButton11);
+            Controls.Add(radioButton6);
+            Controls.Add(radioButton8);
+            Controls.Add(radioButton3);
+            Controls.Add(radioButton10);
+            Controls.Add(radioButton2);
+            Controls.Add(radioButton9);
+            Controls.Add(dataGridView1);
+            Controls.Add(radioButton7);
+            Controls.Add(radioButton1);
+            Controls.Add(radioButton5);
+            DoubleBuffered = true;
+            Name = "KanBagisTakip";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "KanBagisTakip";
+            Load += KanBagisTakip_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

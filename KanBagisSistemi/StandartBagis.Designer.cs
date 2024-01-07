@@ -28,440 +28,447 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StandartBagis));
-            this.StandartBagisKaydetbtn = new System.Windows.Forms.Button();
-            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.label7 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.Hemsire_radio4 = new System.Windows.Forms.RadioButton();
-            this.Hemsire_radio3 = new System.Windows.Forms.RadioButton();
-            this.Hemsire_radio2 = new System.Windows.Forms.RadioButton();
-            this.Hemsire_radio1 = new System.Windows.Forms.RadioButton();
-            this.groupBox_Kantipi = new System.Windows.Forms.GroupBox();
-            this.SRadioBtn_0negatif = new System.Windows.Forms.RadioButton();
-            this.SRadioBtn_ABnegatif = new System.Windows.Forms.RadioButton();
-            this.SRadioBtn_Bnegatif = new System.Windows.Forms.RadioButton();
-            this.SRadioBtn_Anegatif = new System.Windows.Forms.RadioButton();
-            this.SRadioBtn_0pozitif = new System.Windows.Forms.RadioButton();
-            this.SRadioBtn_ABpozitif = new System.Windows.Forms.RadioButton();
-            this.SRadioBtn_Bpozitif = new System.Windows.Forms.RadioButton();
-            this.SRadioBtn_Apozitif = new System.Windows.Forms.RadioButton();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.GroupBox_Covid = new System.Windows.Forms.GroupBox();
-            this.S_CovidEvet = new System.Windows.Forms.RadioButton();
-            this.S_CovidHayır = new System.Windows.Forms.RadioButton();
-            this.label6 = new System.Windows.Forms.Label();
-            this.S_Adres = new System.Windows.Forms.TextBox();
-            this.S_TelNo = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.S_Email = new System.Windows.Forms.TextBox();
-            this.S_Yas = new System.Windows.Forms.TextBox();
-            this.S_Soyad = new System.Windows.Forms.TextBox();
-            this.S_Ad = new System.Windows.Forms.TextBox();
-            this.S_KimlikNoTxt = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
-            this.groupBox2.SuspendLayout();
-            this.groupBox_Kantipi.SuspendLayout();
-            this.GroupBox_Covid.SuspendLayout();
-            this.SuspendLayout();
+            StandartBagisKaydetbtn = new Button();
+            ımageList1 = new ImageList(components);
+            label7 = new Label();
+            label3 = new Label();
+            groupBox2 = new GroupBox();
+            Hemsire_radio4 = new RadioButton();
+            Hemsire_radio3 = new RadioButton();
+            Hemsire_radio2 = new RadioButton();
+            Hemsire_radio1 = new RadioButton();
+            groupBox_Kantipi = new GroupBox();
+            SRadioBtn_0negatif = new RadioButton();
+            SRadioBtn_ABnegatif = new RadioButton();
+            SRadioBtn_Bnegatif = new RadioButton();
+            SRadioBtn_Anegatif = new RadioButton();
+            SRadioBtn_0pozitif = new RadioButton();
+            SRadioBtn_ABpozitif = new RadioButton();
+            SRadioBtn_Bpozitif = new RadioButton();
+            SRadioBtn_Apozitif = new RadioButton();
+            textBox1 = new TextBox();
+            GroupBox_Covid = new GroupBox();
+            S_CovidEvet = new RadioButton();
+            S_CovidHayır = new RadioButton();
+            label6 = new Label();
+            S_Adres = new TextBox();
+            S_TelNo = new TextBox();
+            label4 = new Label();
+            S_Email = new TextBox();
+            S_Yas = new TextBox();
+            S_Soyad = new TextBox();
+            S_Ad = new TextBox();
+            S_KimlikNoTxt = new TextBox();
+            label1 = new Label();
+            dateTimePicker1 = new DateTimePicker();
+            button1 = new Button();
+            groupBox2.SuspendLayout();
+            groupBox_Kantipi.SuspendLayout();
+            GroupBox_Covid.SuspendLayout();
+            SuspendLayout();
             // 
             // StandartBagisKaydetbtn
             // 
-            this.StandartBagisKaydetbtn.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.StandartBagisKaydetbtn.Font = new System.Drawing.Font("Segoe UI Variable Text", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.StandartBagisKaydetbtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.StandartBagisKaydetbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.StandartBagisKaydetbtn.ImageKey = "icons8-blood-64 (4).png";
-            this.StandartBagisKaydetbtn.ImageList = this.ımageList1;
-            this.StandartBagisKaydetbtn.Location = new System.Drawing.Point(370, 457);
-            this.StandartBagisKaydetbtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.StandartBagisKaydetbtn.Name = "StandartBagisKaydetbtn";
-            this.StandartBagisKaydetbtn.Size = new System.Drawing.Size(310, 103);
-            this.StandartBagisKaydetbtn.TabIndex = 69;
-            this.StandartBagisKaydetbtn.Text = "KAYDET";
-            this.StandartBagisKaydetbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.StandartBagisKaydetbtn.UseVisualStyleBackColor = false;
-            this.StandartBagisKaydetbtn.Click += new System.EventHandler(this.StandartBagisKaydetbtn_Click);
+            StandartBagisKaydetbtn.BackColor = SystemColors.AppWorkspace;
+            StandartBagisKaydetbtn.Font = new Font("Segoe UI Variable Text", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            StandartBagisKaydetbtn.ForeColor = SystemColors.ActiveCaptionText;
+            StandartBagisKaydetbtn.ImageAlign = ContentAlignment.MiddleRight;
+            StandartBagisKaydetbtn.ImageKey = "icons8-blood-64 (4).png";
+            StandartBagisKaydetbtn.ImageList = ımageList1;
+            StandartBagisKaydetbtn.Location = new Point(324, 343);
+            StandartBagisKaydetbtn.Name = "StandartBagisKaydetbtn";
+            StandartBagisKaydetbtn.Size = new Size(271, 77);
+            StandartBagisKaydetbtn.TabIndex = 69;
+            StandartBagisKaydetbtn.Text = "KAYDET";
+            StandartBagisKaydetbtn.TextAlign = ContentAlignment.MiddleLeft;
+            StandartBagisKaydetbtn.UseVisualStyleBackColor = false;
+            StandartBagisKaydetbtn.Click += StandartBagisKaydetbtn_Click;
             // 
             // ımageList1
             // 
-            this.ımageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
-            this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.ımageList1.Images.SetKeyName(0, "icons8-blood-64 (4).png");
+            ımageList1.ColorDepth = ColorDepth.Depth8Bit;
+            ımageList1.ImageStream = (ImageListStreamer)resources.GetObject("ımageList1.ImageStream");
+            ımageList1.TransparentColor = Color.Transparent;
+            ımageList1.Images.SetKeyName(0, "icons8-blood-64 (4).png");
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(423, 433);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(0, 20);
-            this.label7.TabIndex = 68;
+            label7.AutoSize = true;
+            label7.Location = new Point(370, 325);
+            label7.Name = "label7";
+            label7.Size = new Size(0, 15);
+            label7.TabIndex = 68;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(423, 291);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 20);
-            this.label3.TabIndex = 65;
+            label3.AutoSize = true;
+            label3.Location = new Point(370, 218);
+            label3.Name = "label3";
+            label3.Size = new Size(0, 15);
+            label3.TabIndex = 65;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.Hemsire_radio4);
-            this.groupBox2.Controls.Add(this.Hemsire_radio3);
-            this.groupBox2.Controls.Add(this.Hemsire_radio2);
-            this.groupBox2.Controls.Add(this.Hemsire_radio1);
-            this.groupBox2.Location = new System.Drawing.Point(370, 325);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(310, 99);
-            this.groupBox2.TabIndex = 64;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "İşlemi gerçekleştiren hemşire:";
+            groupBox2.Controls.Add(Hemsire_radio4);
+            groupBox2.Controls.Add(Hemsire_radio3);
+            groupBox2.Controls.Add(Hemsire_radio2);
+            groupBox2.Controls.Add(Hemsire_radio1);
+            groupBox2.Location = new Point(324, 244);
+            groupBox2.Margin = new Padding(3, 2, 3, 2);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Padding = new Padding(3, 2, 3, 2);
+            groupBox2.Size = new Size(271, 74);
+            groupBox2.TabIndex = 64;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "İşlemi gerçekleştiren hemşire:";
             // 
             // Hemsire_radio4
             // 
-            this.Hemsire_radio4.AutoSize = true;
-            this.Hemsire_radio4.Location = new System.Drawing.Point(153, 53);
-            this.Hemsire_radio4.Name = "Hemsire_radio4";
-            this.Hemsire_radio4.Size = new System.Drawing.Size(136, 24);
-            this.Hemsire_radio4.TabIndex = 3;
-            this.Hemsire_radio4.TabStop = true;
-            this.Hemsire_radio4.Text = "Atıf Küçüközkan";
-            this.Hemsire_radio4.UseVisualStyleBackColor = true;
+            Hemsire_radio4.AutoSize = true;
+            Hemsire_radio4.Location = new Point(134, 40);
+            Hemsire_radio4.Margin = new Padding(3, 2, 3, 2);
+            Hemsire_radio4.Name = "Hemsire_radio4";
+            Hemsire_radio4.Size = new Size(92, 19);
+            Hemsire_radio4.TabIndex = 3;
+            Hemsire_radio4.TabStop = true;
+            Hemsire_radio4.Text = "Dilay Görken";
+            Hemsire_radio4.UseVisualStyleBackColor = true;
             // 
             // Hemsire_radio3
             // 
-            this.Hemsire_radio3.AutoSize = true;
-            this.Hemsire_radio3.Location = new System.Drawing.Point(153, 25);
-            this.Hemsire_radio3.Name = "Hemsire_radio3";
-            this.Hemsire_radio3.Size = new System.Drawing.Size(122, 24);
-            this.Hemsire_radio3.TabIndex = 2;
-            this.Hemsire_radio3.TabStop = true;
-            this.Hemsire_radio3.Text = "Kutay Yıldırım";
-            this.Hemsire_radio3.UseVisualStyleBackColor = true;
+            Hemsire_radio3.AutoSize = true;
+            Hemsire_radio3.Location = new Point(134, 19);
+            Hemsire_radio3.Margin = new Padding(3, 2, 3, 2);
+            Hemsire_radio3.Name = "Hemsire_radio3";
+            Hemsire_radio3.Size = new Size(85, 19);
+            Hemsire_radio3.TabIndex = 2;
+            Hemsire_radio3.TabStop = true;
+            Hemsire_radio3.Text = "Eren Eroğul";
+            Hemsire_radio3.UseVisualStyleBackColor = true;
             // 
             // Hemsire_radio2
             // 
-            this.Hemsire_radio2.AutoSize = true;
-            this.Hemsire_radio2.Location = new System.Drawing.Point(11, 53);
-            this.Hemsire_radio2.Name = "Hemsire_radio2";
-            this.Hemsire_radio2.Size = new System.Drawing.Size(95, 24);
-            this.Hemsire_radio2.TabIndex = 1;
-            this.Hemsire_radio2.TabStop = true;
-            this.Hemsire_radio2.Text = "Yaren Sarı";
-            this.Hemsire_radio2.UseVisualStyleBackColor = true;
+            Hemsire_radio2.AutoSize = true;
+            Hemsire_radio2.Location = new Point(10, 40);
+            Hemsire_radio2.Margin = new Padding(3, 2, 3, 2);
+            Hemsire_radio2.Name = "Hemsire_radio2";
+            Hemsire_radio2.Size = new Size(92, 19);
+            Hemsire_radio2.TabIndex = 1;
+            Hemsire_radio2.TabStop = true;
+            Hemsire_radio2.Text = "Baran Üçdağ";
+            Hemsire_radio2.UseVisualStyleBackColor = true;
             // 
             // Hemsire_radio1
             // 
-            this.Hemsire_radio1.AutoSize = true;
-            this.Hemsire_radio1.Location = new System.Drawing.Point(11, 24);
-            this.Hemsire_radio1.Name = "Hemsire_radio1";
-            this.Hemsire_radio1.Size = new System.Drawing.Size(125, 24);
-            this.Hemsire_radio1.TabIndex = 0;
-            this.Hemsire_radio1.TabStop = true;
-            this.Hemsire_radio1.Text = "Tülay Tekinsoy";
-            this.Hemsire_radio1.UseVisualStyleBackColor = true;
+            Hemsire_radio1.AutoSize = true;
+            Hemsire_radio1.Location = new Point(10, 18);
+            Hemsire_radio1.Margin = new Padding(3, 2, 3, 2);
+            Hemsire_radio1.Name = "Hemsire_radio1";
+            Hemsire_radio1.Size = new Size(104, 19);
+            Hemsire_radio1.TabIndex = 0;
+            Hemsire_radio1.TabStop = true;
+            Hemsire_radio1.Text = "Yiğit Çetinkaya";
+            Hemsire_radio1.UseVisualStyleBackColor = true;
             // 
             // groupBox_Kantipi
             // 
-            this.groupBox_Kantipi.Controls.Add(this.SRadioBtn_0negatif);
-            this.groupBox_Kantipi.Controls.Add(this.SRadioBtn_ABnegatif);
-            this.groupBox_Kantipi.Controls.Add(this.SRadioBtn_Bnegatif);
-            this.groupBox_Kantipi.Controls.Add(this.SRadioBtn_Anegatif);
-            this.groupBox_Kantipi.Controls.Add(this.SRadioBtn_0pozitif);
-            this.groupBox_Kantipi.Controls.Add(this.SRadioBtn_ABpozitif);
-            this.groupBox_Kantipi.Controls.Add(this.SRadioBtn_Bpozitif);
-            this.groupBox_Kantipi.Controls.Add(this.SRadioBtn_Apozitif);
-            this.groupBox_Kantipi.Location = new System.Drawing.Point(370, 31);
-            this.groupBox_Kantipi.Name = "groupBox_Kantipi";
-            this.groupBox_Kantipi.Size = new System.Drawing.Size(310, 156);
-            this.groupBox_Kantipi.TabIndex = 63;
-            this.groupBox_Kantipi.TabStop = false;
-            this.groupBox_Kantipi.Text = "Kan Grubu:";
+            groupBox_Kantipi.Controls.Add(SRadioBtn_0negatif);
+            groupBox_Kantipi.Controls.Add(SRadioBtn_ABnegatif);
+            groupBox_Kantipi.Controls.Add(SRadioBtn_Bnegatif);
+            groupBox_Kantipi.Controls.Add(SRadioBtn_Anegatif);
+            groupBox_Kantipi.Controls.Add(SRadioBtn_0pozitif);
+            groupBox_Kantipi.Controls.Add(SRadioBtn_ABpozitif);
+            groupBox_Kantipi.Controls.Add(SRadioBtn_Bpozitif);
+            groupBox_Kantipi.Controls.Add(SRadioBtn_Apozitif);
+            groupBox_Kantipi.Location = new Point(324, 23);
+            groupBox_Kantipi.Margin = new Padding(3, 2, 3, 2);
+            groupBox_Kantipi.Name = "groupBox_Kantipi";
+            groupBox_Kantipi.Padding = new Padding(3, 2, 3, 2);
+            groupBox_Kantipi.Size = new Size(271, 117);
+            groupBox_Kantipi.TabIndex = 63;
+            groupBox_Kantipi.TabStop = false;
+            groupBox_Kantipi.Text = "Kan Grubu:";
             // 
             // SRadioBtn_0negatif
             // 
-            this.SRadioBtn_0negatif.AutoSize = true;
-            this.SRadioBtn_0negatif.Location = new System.Drawing.Point(139, 113);
-            this.SRadioBtn_0negatif.Name = "SRadioBtn_0negatif";
-            this.SRadioBtn_0negatif.Size = new System.Drawing.Size(65, 24);
-            this.SRadioBtn_0negatif.TabIndex = 7;
-            this.SRadioBtn_0negatif.TabStop = true;
-            this.SRadioBtn_0negatif.Text = "0 Rh-";
-            this.SRadioBtn_0negatif.UseVisualStyleBackColor = true;
+            SRadioBtn_0negatif.AutoSize = true;
+            SRadioBtn_0negatif.Location = new Point(122, 85);
+            SRadioBtn_0negatif.Margin = new Padding(3, 2, 3, 2);
+            SRadioBtn_0negatif.Name = "SRadioBtn_0negatif";
+            SRadioBtn_0negatif.Size = new Size(53, 19);
+            SRadioBtn_0negatif.TabIndex = 7;
+            SRadioBtn_0negatif.TabStop = true;
+            SRadioBtn_0negatif.Text = "0 Rh-";
+            SRadioBtn_0negatif.UseVisualStyleBackColor = true;
             // 
             // SRadioBtn_ABnegatif
             // 
-            this.SRadioBtn_ABnegatif.AutoSize = true;
-            this.SRadioBtn_ABnegatif.Location = new System.Drawing.Point(139, 83);
-            this.SRadioBtn_ABnegatif.Name = "SRadioBtn_ABnegatif";
-            this.SRadioBtn_ABnegatif.Size = new System.Drawing.Size(76, 24);
-            this.SRadioBtn_ABnegatif.TabIndex = 6;
-            this.SRadioBtn_ABnegatif.TabStop = true;
-            this.SRadioBtn_ABnegatif.Text = "AB Rh-";
-            this.SRadioBtn_ABnegatif.UseVisualStyleBackColor = true;
+            SRadioBtn_ABnegatif.AutoSize = true;
+            SRadioBtn_ABnegatif.Location = new Point(122, 62);
+            SRadioBtn_ABnegatif.Margin = new Padding(3, 2, 3, 2);
+            SRadioBtn_ABnegatif.Name = "SRadioBtn_ABnegatif";
+            SRadioBtn_ABnegatif.Size = new Size(62, 19);
+            SRadioBtn_ABnegatif.TabIndex = 6;
+            SRadioBtn_ABnegatif.TabStop = true;
+            SRadioBtn_ABnegatif.Text = "AB Rh-";
+            SRadioBtn_ABnegatif.UseVisualStyleBackColor = true;
             // 
             // SRadioBtn_Bnegatif
             // 
-            this.SRadioBtn_Bnegatif.AutoSize = true;
-            this.SRadioBtn_Bnegatif.Location = new System.Drawing.Point(139, 53);
-            this.SRadioBtn_Bnegatif.Name = "SRadioBtn_Bnegatif";
-            this.SRadioBtn_Bnegatif.Size = new System.Drawing.Size(66, 24);
-            this.SRadioBtn_Bnegatif.TabIndex = 5;
-            this.SRadioBtn_Bnegatif.TabStop = true;
-            this.SRadioBtn_Bnegatif.Text = "B Rh-";
-            this.SRadioBtn_Bnegatif.UseVisualStyleBackColor = true;
+            SRadioBtn_Bnegatif.AutoSize = true;
+            SRadioBtn_Bnegatif.Location = new Point(122, 40);
+            SRadioBtn_Bnegatif.Margin = new Padding(3, 2, 3, 2);
+            SRadioBtn_Bnegatif.Name = "SRadioBtn_Bnegatif";
+            SRadioBtn_Bnegatif.Size = new Size(54, 19);
+            SRadioBtn_Bnegatif.TabIndex = 5;
+            SRadioBtn_Bnegatif.TabStop = true;
+            SRadioBtn_Bnegatif.Text = "B Rh-";
+            SRadioBtn_Bnegatif.UseVisualStyleBackColor = true;
             // 
             // SRadioBtn_Anegatif
             // 
-            this.SRadioBtn_Anegatif.AutoSize = true;
-            this.SRadioBtn_Anegatif.Location = new System.Drawing.Point(139, 24);
-            this.SRadioBtn_Anegatif.Name = "SRadioBtn_Anegatif";
-            this.SRadioBtn_Anegatif.Size = new System.Drawing.Size(67, 24);
-            this.SRadioBtn_Anegatif.TabIndex = 4;
-            this.SRadioBtn_Anegatif.TabStop = true;
-            this.SRadioBtn_Anegatif.Text = "A Rh-";
-            this.SRadioBtn_Anegatif.UseVisualStyleBackColor = true;
+            SRadioBtn_Anegatif.AutoSize = true;
+            SRadioBtn_Anegatif.Location = new Point(122, 18);
+            SRadioBtn_Anegatif.Margin = new Padding(3, 2, 3, 2);
+            SRadioBtn_Anegatif.Name = "SRadioBtn_Anegatif";
+            SRadioBtn_Anegatif.Size = new Size(55, 19);
+            SRadioBtn_Anegatif.TabIndex = 4;
+            SRadioBtn_Anegatif.TabStop = true;
+            SRadioBtn_Anegatif.Text = "A Rh-";
+            SRadioBtn_Anegatif.UseVisualStyleBackColor = true;
             // 
             // SRadioBtn_0pozitif
             // 
-            this.SRadioBtn_0pozitif.AutoSize = true;
-            this.SRadioBtn_0pozitif.Location = new System.Drawing.Point(16, 113);
-            this.SRadioBtn_0pozitif.Name = "SRadioBtn_0pozitif";
-            this.SRadioBtn_0pozitif.Size = new System.Drawing.Size(69, 24);
-            this.SRadioBtn_0pozitif.TabIndex = 3;
-            this.SRadioBtn_0pozitif.TabStop = true;
-            this.SRadioBtn_0pozitif.Text = "0 Rh+";
-            this.SRadioBtn_0pozitif.UseVisualStyleBackColor = true;
+            SRadioBtn_0pozitif.AutoSize = true;
+            SRadioBtn_0pozitif.Location = new Point(14, 85);
+            SRadioBtn_0pozitif.Margin = new Padding(3, 2, 3, 2);
+            SRadioBtn_0pozitif.Name = "SRadioBtn_0pozitif";
+            SRadioBtn_0pozitif.Size = new Size(56, 19);
+            SRadioBtn_0pozitif.TabIndex = 3;
+            SRadioBtn_0pozitif.TabStop = true;
+            SRadioBtn_0pozitif.Text = "0 Rh+";
+            SRadioBtn_0pozitif.UseVisualStyleBackColor = true;
             // 
             // SRadioBtn_ABpozitif
             // 
-            this.SRadioBtn_ABpozitif.AutoSize = true;
-            this.SRadioBtn_ABpozitif.Location = new System.Drawing.Point(16, 83);
-            this.SRadioBtn_ABpozitif.Name = "SRadioBtn_ABpozitif";
-            this.SRadioBtn_ABpozitif.Size = new System.Drawing.Size(80, 24);
-            this.SRadioBtn_ABpozitif.TabIndex = 2;
-            this.SRadioBtn_ABpozitif.TabStop = true;
-            this.SRadioBtn_ABpozitif.Text = "AB Rh+";
-            this.SRadioBtn_ABpozitif.UseVisualStyleBackColor = true;
+            SRadioBtn_ABpozitif.AutoSize = true;
+            SRadioBtn_ABpozitif.Location = new Point(14, 62);
+            SRadioBtn_ABpozitif.Margin = new Padding(3, 2, 3, 2);
+            SRadioBtn_ABpozitif.Name = "SRadioBtn_ABpozitif";
+            SRadioBtn_ABpozitif.Size = new Size(65, 19);
+            SRadioBtn_ABpozitif.TabIndex = 2;
+            SRadioBtn_ABpozitif.TabStop = true;
+            SRadioBtn_ABpozitif.Text = "AB Rh+";
+            SRadioBtn_ABpozitif.UseVisualStyleBackColor = true;
             // 
             // SRadioBtn_Bpozitif
             // 
-            this.SRadioBtn_Bpozitif.AutoSize = true;
-            this.SRadioBtn_Bpozitif.Location = new System.Drawing.Point(16, 53);
-            this.SRadioBtn_Bpozitif.Name = "SRadioBtn_Bpozitif";
-            this.SRadioBtn_Bpozitif.Size = new System.Drawing.Size(70, 24);
-            this.SRadioBtn_Bpozitif.TabIndex = 1;
-            this.SRadioBtn_Bpozitif.TabStop = true;
-            this.SRadioBtn_Bpozitif.Text = "B Rh+";
-            this.SRadioBtn_Bpozitif.UseVisualStyleBackColor = true;
+            SRadioBtn_Bpozitif.AutoSize = true;
+            SRadioBtn_Bpozitif.Location = new Point(14, 40);
+            SRadioBtn_Bpozitif.Margin = new Padding(3, 2, 3, 2);
+            SRadioBtn_Bpozitif.Name = "SRadioBtn_Bpozitif";
+            SRadioBtn_Bpozitif.Size = new Size(57, 19);
+            SRadioBtn_Bpozitif.TabIndex = 1;
+            SRadioBtn_Bpozitif.TabStop = true;
+            SRadioBtn_Bpozitif.Text = "B Rh+";
+            SRadioBtn_Bpozitif.UseVisualStyleBackColor = true;
             // 
             // SRadioBtn_Apozitif
             // 
-            this.SRadioBtn_Apozitif.AutoSize = true;
-            this.SRadioBtn_Apozitif.Location = new System.Drawing.Point(16, 24);
-            this.SRadioBtn_Apozitif.Name = "SRadioBtn_Apozitif";
-            this.SRadioBtn_Apozitif.Size = new System.Drawing.Size(71, 24);
-            this.SRadioBtn_Apozitif.TabIndex = 0;
-            this.SRadioBtn_Apozitif.TabStop = true;
-            this.SRadioBtn_Apozitif.Text = "A Rh+";
-            this.SRadioBtn_Apozitif.UseVisualStyleBackColor = true;
+            SRadioBtn_Apozitif.AutoSize = true;
+            SRadioBtn_Apozitif.Location = new Point(14, 18);
+            SRadioBtn_Apozitif.Margin = new Padding(3, 2, 3, 2);
+            SRadioBtn_Apozitif.Name = "SRadioBtn_Apozitif";
+            SRadioBtn_Apozitif.Size = new Size(58, 19);
+            SRadioBtn_Apozitif.TabIndex = 0;
+            SRadioBtn_Apozitif.TabStop = true;
+            SRadioBtn_Apozitif.Text = "A Rh+";
+            SRadioBtn_Apozitif.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(64, 249);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PlaceholderText = "Semt";
-            this.textBox1.Size = new System.Drawing.Size(139, 27);
-            this.textBox1.TabIndex = 62;
+            textBox1.Location = new Point(56, 187);
+            textBox1.Margin = new Padding(3, 2, 3, 2);
+            textBox1.Name = "textBox1";
+            textBox1.PlaceholderText = "Semt";
+            textBox1.Size = new Size(122, 23);
+            textBox1.TabIndex = 62;
             // 
             // GroupBox_Covid
             // 
-            this.GroupBox_Covid.Controls.Add(this.S_CovidEvet);
-            this.GroupBox_Covid.Controls.Add(this.S_CovidHayır);
-            this.GroupBox_Covid.Location = new System.Drawing.Point(370, 224);
-            this.GroupBox_Covid.Name = "GroupBox_Covid";
-            this.GroupBox_Covid.Size = new System.Drawing.Size(310, 64);
-            this.GroupBox_Covid.TabIndex = 61;
-            this.GroupBox_Covid.TabStop = false;
-            this.GroupBox_Covid.Text = "Son 6 ay içinde covid geçirdi mi?";
+            GroupBox_Covid.Controls.Add(S_CovidEvet);
+            GroupBox_Covid.Controls.Add(S_CovidHayır);
+            GroupBox_Covid.Location = new Point(324, 168);
+            GroupBox_Covid.Margin = new Padding(3, 2, 3, 2);
+            GroupBox_Covid.Name = "GroupBox_Covid";
+            GroupBox_Covid.Padding = new Padding(3, 2, 3, 2);
+            GroupBox_Covid.Size = new Size(271, 48);
+            GroupBox_Covid.TabIndex = 61;
+            GroupBox_Covid.TabStop = false;
+            GroupBox_Covid.Text = "Son 6 ay içinde covid geçirdi mi?";
             // 
             // S_CovidEvet
             // 
-            this.S_CovidEvet.AutoSize = true;
-            this.S_CovidEvet.Location = new System.Drawing.Point(23, 27);
-            this.S_CovidEvet.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.S_CovidEvet.Name = "S_CovidEvet";
-            this.S_CovidEvet.Size = new System.Drawing.Size(58, 24);
-            this.S_CovidEvet.TabIndex = 19;
-            this.S_CovidEvet.TabStop = true;
-            this.S_CovidEvet.Text = "Evet";
-            this.S_CovidEvet.UseVisualStyleBackColor = true;
+            S_CovidEvet.AutoSize = true;
+            S_CovidEvet.Location = new Point(20, 20);
+            S_CovidEvet.Name = "S_CovidEvet";
+            S_CovidEvet.Size = new Size(47, 19);
+            S_CovidEvet.TabIndex = 19;
+            S_CovidEvet.TabStop = true;
+            S_CovidEvet.Text = "Evet";
+            S_CovidEvet.UseVisualStyleBackColor = true;
             // 
             // S_CovidHayır
             // 
-            this.S_CovidHayır.AutoSize = true;
-            this.S_CovidHayır.Location = new System.Drawing.Point(119, 27);
-            this.S_CovidHayır.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.S_CovidHayır.Name = "S_CovidHayır";
-            this.S_CovidHayır.Size = new System.Drawing.Size(65, 24);
-            this.S_CovidHayır.TabIndex = 20;
-            this.S_CovidHayır.TabStop = true;
-            this.S_CovidHayır.Text = "Hayır";
-            this.S_CovidHayır.UseVisualStyleBackColor = true;
+            S_CovidHayır.AutoSize = true;
+            S_CovidHayır.Location = new Point(104, 20);
+            S_CovidHayır.Name = "S_CovidHayır";
+            S_CovidHayır.Size = new Size(53, 19);
+            S_CovidHayır.TabIndex = 20;
+            S_CovidHayır.TabStop = true;
+            S_CovidHayır.Text = "Hayır";
+            S_CovidHayır.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(64, 391);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(142, 20);
-            this.label6.TabIndex = 60;
-            this.label6.Text = "Son kan bağış tarihi:";
+            label6.AutoSize = true;
+            label6.Location = new Point(56, 293);
+            label6.Name = "label6";
+            label6.Size = new Size(113, 15);
+            label6.TabIndex = 60;
+            label6.Text = "Son kan bağış tarihi:";
             // 
             // S_Adres
             // 
-            this.S_Adres.Location = new System.Drawing.Point(64, 287);
-            this.S_Adres.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.S_Adres.Name = "S_Adres";
-            this.S_Adres.PlaceholderText = "Adres";
-            this.S_Adres.Size = new System.Drawing.Size(139, 27);
-            this.S_Adres.TabIndex = 59;
+            S_Adres.Location = new Point(56, 215);
+            S_Adres.Name = "S_Adres";
+            S_Adres.PlaceholderText = "Adres";
+            S_Adres.Size = new Size(122, 23);
+            S_Adres.TabIndex = 59;
             // 
             // S_TelNo
             // 
-            this.S_TelNo.Location = new System.Drawing.Point(64, 325);
-            this.S_TelNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.S_TelNo.Name = "S_TelNo";
-            this.S_TelNo.PlaceholderText = "Telefon Numarası";
-            this.S_TelNo.Size = new System.Drawing.Size(139, 27);
-            this.S_TelNo.TabIndex = 58;
+            S_TelNo.Location = new Point(56, 244);
+            S_TelNo.Name = "S_TelNo";
+            S_TelNo.PlaceholderText = "Telefon Numarası";
+            S_TelNo.Size = new Size(122, 23);
+            S_TelNo.TabIndex = 58;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(423, 81);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 20);
-            this.label4.TabIndex = 57;
+            label4.AutoSize = true;
+            label4.Location = new Point(370, 61);
+            label4.Name = "label4";
+            label4.Size = new Size(0, 15);
+            label4.TabIndex = 57;
             // 
             // S_Email
             // 
-            this.S_Email.Location = new System.Drawing.Point(64, 173);
-            this.S_Email.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.S_Email.Name = "S_Email";
-            this.S_Email.PlaceholderText = "Email";
-            this.S_Email.Size = new System.Drawing.Size(139, 27);
-            this.S_Email.TabIndex = 56;
+            S_Email.Location = new Point(56, 130);
+            S_Email.Name = "S_Email";
+            S_Email.PlaceholderText = "Email";
+            S_Email.Size = new Size(122, 23);
+            S_Email.TabIndex = 56;
             // 
             // S_Yas
             // 
-            this.S_Yas.Location = new System.Drawing.Point(64, 212);
-            this.S_Yas.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.S_Yas.Name = "S_Yas";
-            this.S_Yas.PlaceholderText = "Yaş";
-            this.S_Yas.Size = new System.Drawing.Size(139, 27);
-            this.S_Yas.TabIndex = 55;
+            S_Yas.Location = new Point(56, 159);
+            S_Yas.Name = "S_Yas";
+            S_Yas.PlaceholderText = "Yaş";
+            S_Yas.Size = new Size(122, 23);
+            S_Yas.TabIndex = 55;
             // 
             // S_Soyad
             // 
-            this.S_Soyad.Location = new System.Drawing.Point(64, 135);
-            this.S_Soyad.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.S_Soyad.Name = "S_Soyad";
-            this.S_Soyad.PlaceholderText = "Soyad";
-            this.S_Soyad.Size = new System.Drawing.Size(139, 27);
-            this.S_Soyad.TabIndex = 54;
+            S_Soyad.Location = new Point(56, 101);
+            S_Soyad.Name = "S_Soyad";
+            S_Soyad.PlaceholderText = "Soyad";
+            S_Soyad.Size = new Size(122, 23);
+            S_Soyad.TabIndex = 54;
             // 
             // S_Ad
             // 
-            this.S_Ad.Location = new System.Drawing.Point(64, 96);
-            this.S_Ad.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.S_Ad.Name = "S_Ad";
-            this.S_Ad.PlaceholderText = "Ad";
-            this.S_Ad.Size = new System.Drawing.Size(139, 27);
-            this.S_Ad.TabIndex = 53;
+            S_Ad.Location = new Point(56, 72);
+            S_Ad.Name = "S_Ad";
+            S_Ad.PlaceholderText = "Ad";
+            S_Ad.Size = new Size(122, 23);
+            S_Ad.TabIndex = 53;
             // 
             // S_KimlikNoTxt
             // 
-            this.S_KimlikNoTxt.Location = new System.Drawing.Point(64, 57);
-            this.S_KimlikNoTxt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.S_KimlikNoTxt.Name = "S_KimlikNoTxt";
-            this.S_KimlikNoTxt.PlaceholderText = "Kimlik No";
-            this.S_KimlikNoTxt.Size = new System.Drawing.Size(139, 27);
-            this.S_KimlikNoTxt.TabIndex = 52;
+            S_KimlikNoTxt.Location = new Point(56, 43);
+            S_KimlikNoTxt.Name = "S_KimlikNoTxt";
+            S_KimlikNoTxt.PlaceholderText = "Kimlik No";
+            S_KimlikNoTxt.Size = new Size(122, 23);
+            S_KimlikNoTxt.TabIndex = 52;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(64, 31);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 23);
-            this.label1.TabIndex = 51;
-            this.label1.Text = "Hastanın:";
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.ControlText;
+            label1.Location = new Point(56, 23);
+            label1.Name = "label1";
+            label1.Size = new Size(67, 17);
+            label1.TabIndex = 51;
+            label1.Text = "Hastanın:";
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(64, 425);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(228, 27);
-            this.dateTimePicker1.TabIndex = 71;
+            dateTimePicker1.Location = new Point(56, 319);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(200, 23);
+            dateTimePicker1.TabIndex = 71;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(64, 531);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 40);
-            this.button1.TabIndex = 72;
-            this.button1.Text = "GERİ";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.Location = new Point(56, 398);
+            button1.Margin = new Padding(3, 2, 3, 2);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 30);
+            button1.TabIndex = 72;
+            button1.Text = "GERİ";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // StandartBagis
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.ClientSize = new System.Drawing.Size(737, 601);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.StandartBagisKaydetbtn);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox_Kantipi);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.GroupBox_Covid);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.S_Adres);
-            this.Controls.Add(this.S_TelNo);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.S_Email);
-            this.Controls.Add(this.S_Yas);
-            this.Controls.Add(this.S_Soyad);
-            this.Controls.Add(this.S_Ad);
-            this.Controls.Add(this.S_KimlikNoTxt);
-            this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "StandartBagis";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "StandartBagis";
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox_Kantipi.ResumeLayout(false);
-            this.groupBox_Kantipi.PerformLayout();
-            this.GroupBox_Covid.ResumeLayout(false);
-            this.GroupBox_Covid.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightSeaGreen;
+            ClientSize = new Size(645, 451);
+            Controls.Add(button1);
+            Controls.Add(dateTimePicker1);
+            Controls.Add(StandartBagisKaydetbtn);
+            Controls.Add(label7);
+            Controls.Add(label3);
+            Controls.Add(groupBox2);
+            Controls.Add(groupBox_Kantipi);
+            Controls.Add(textBox1);
+            Controls.Add(GroupBox_Covid);
+            Controls.Add(label6);
+            Controls.Add(S_Adres);
+            Controls.Add(S_TelNo);
+            Controls.Add(label4);
+            Controls.Add(S_Email);
+            Controls.Add(S_Yas);
+            Controls.Add(S_Soyad);
+            Controls.Add(S_Ad);
+            Controls.Add(S_KimlikNoTxt);
+            Controls.Add(label1);
+            Name = "StandartBagis";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "StandartBagis";
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
+            groupBox_Kantipi.ResumeLayout(false);
+            groupBox_Kantipi.PerformLayout();
+            GroupBox_Covid.ResumeLayout(false);
+            GroupBox_Covid.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

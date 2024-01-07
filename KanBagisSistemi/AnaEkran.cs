@@ -20,14 +20,14 @@ namespace KanBagisSistemi
         private void KanBagisBtn_Click(object sender, EventArgs e)
         {
             KanBagisi kanBagisi = new KanBagisi();
-            kanBagisi.ShowDialog();
+            kanBagisi.Show();
             this.Hide();
         }
 
         private void KanTakipBtn_Click(object sender, EventArgs e)
         {
             KanBagisTakip kanBagisTakip = new KanBagisTakip();
-            kanBagisTakip.ShowDialog();
+            kanBagisTakip.Show();
             this.Hide();
 
         }

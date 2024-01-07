@@ -20,14 +20,14 @@ namespace KanBagisSistemi
         private void StandartBagisBtn_Click(object sender, EventArgs e)
         {
             StandartBagis standartBagis = new StandartBagis();
-            standartBagis.ShowDialog();
+            standartBagis.Show();
             this.Hide();
         }
 
         private void IstekUzerineBagis_Click(object sender, EventArgs e)
         {
             IstekUzerineBagis Istek_uzerine_bagis = new IstekUzerineBagis();
-            Istek_uzerine_bagis.ShowDialog();
+            Istek_uzerine_bagis.Show();
             this.Hide();
         }
 
@@ -35,7 +35,7 @@ namespace KanBagisSistemi
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            myNewForm.ShowDialog();
+            myNewForm.Show();
         }
     }
 }

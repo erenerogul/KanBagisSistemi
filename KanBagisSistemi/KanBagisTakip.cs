@@ -38,17 +38,7 @@ namespace KanBagisSistemi
 
         private void doldurKanistekleri()
         {
-            string sorgu = ("select kimlikno,kangrupismi,semtad,hastanead,hemsireadsoyad," +
-                "hastaad,hastasoyad,hastaadres,hastatelno,hastayas,sonkanbagistarihi,hastaemail,covidtest " +
-                "from kanbagislayanlar " +
-                "inner join hastane " +
-                "on kanbagislayanlar.hastaneid = hastane.hastaneid " +
-                "inner join kangruplari " +
-                "on kangruplari.kangrupid = kanbagislayanlar.kangrupid " +
-                "inner join semt " +
-                "on kanbagislayanlar.semtid = semt.semtid " +
-                "inner join hemsire " +
-                "on kanbagislayanlar.hemsireid = hemsire.hemsireid;");
+            string sorgu = ("SELECT * FROM kanbagisistekView;");
             NpgsqlDataAdapter da = new NpgsqlDataAdapter(sorgu, baglanti);
             DataSet ds = new DataSet();
             da.Fill(ds);
@@ -176,7 +166,7 @@ namespace KanBagisSistemi
 
         private void btnOzelDelete_Click(object sender, EventArgs e)
         {
-        
+
         }
 
         private void btnStandartDelete_Click(object sender, EventArgs e)
@@ -185,7 +175,7 @@ namespace KanBagisSistemi
             dtgvSelected = dataGridView1.Rows[dtgvSelectedRow].Cells["kimlikno"].Value.ToString();
             NpgsqlCommand cmd = new NpgsqlCommand("delete from kanbagislayanlar where kimlikno=@p1", baglanti);
             // hocam delete fonksiyonu database'de mevcut..
-            cmd.Parameters.AddWithValue("@p1",dtgvSelected);
+            cmd.Parameters.AddWithValue("@p1", dtgvSelected);
             cmd.ExecuteNonQuery();
             MessageBox.Show("Silme işlemi tamamlandı");
             baglanti.Close();
@@ -210,8 +200,7 @@ namespace KanBagisSistemi
                 "' , hastasoyad = '" + hsad +
                 "' , hastaadres = '" + hadres +
                 "' , hastatelno = '" + htel +
-                "' , hastaemail = '" + hemail + "' where kimlikno = '" + dtgvSelected + "'",baglanti);
-            // hocam update fonksiyonu database'de mevcut..
+                "' , hastaemail = '" + hemail + "' where kimlikno = '" + dtgvSelected + "'", baglanti);
             baglanti.Open();
             cmd.ExecuteNonQuery();
             baglanti.Close();
